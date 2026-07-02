@@ -27,4 +27,10 @@ Python is where everything lives now. C++ from lower-level/systems work. Day to 
 
 <br>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash1bajpai&layout=compact&theme=tokyonight&hide_border=true&hide_title=true" height="150"/>
+</p>
+
+<br>
+
 <p align="center"><sub><a href="https://linkedin.com/in/yash-bajpai-b5a86332a/">LinkedIn</a> · bajpaiyash2707@gmail.com</sub></p>
