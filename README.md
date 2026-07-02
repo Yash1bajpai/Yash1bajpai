@@ -1,36 +1,58 @@
-<h1 align="center">Yash Bajpai</h1>
-<p align="center"><sub>AI/ML Engineering · CSJMU Kanpur · Open to remote internships (July 2026)</sub></p>
+Hi, I'm Yash Bajpai 👋
 
-<br>
+"Your knowledge should live in your pocket, not on someone else's server."
 
-I build ML systems on real, messy data — not tutorial datasets. Currently a 2nd-year BCA student, aiming for NIT MCA via NIMCET, and shipping projects in the meantime instead of waiting for a degree to justify them.
+I'm a 2nd-year BCA student from Kanpur, India — building offline, privacy-first AI systems that run entirely on-device. No cloud. No dependency. No data leaving your hands.
 
-**Recently:** 1st place at IIT Kanpur's TechKriti'26 hackathon. Certified in MCP (Anthropic Academy, both tracks).
+🤖 What I'm Building
+Project FRIDAY — Offline AI Voice Assistant for Android
+A fully offline AI assistant running on an Android phone using llama.cpp + GGUF quantized models inside Termux. No internet required. No API calls. Pure on-device intelligence.
+What it can do right now:
 
-<br>
+Answer questions entirely offline using a quantized LLM
+Summarize PDF and .txt files using context-windowed chunking
+Speak responses aloud via text-to-speech — no external APIs
+Run on ARM hardware (Snapdragon 6 Gen 1) with 4-bit quantization
 
-### What I've shipped
+Real engineering problems I solved:
 
-**[Global MacroForecast](https://github.com/Yash1bajpai/Global-MacroForecast)** — GDP nowcasting across US, India, Japan, Germany. SARIMA + LightGBM ensemble, inverse-RMSE weighted, live off FRED/World Bank/OECD/ECB feeds. US comes in at 2.3% RMSE / 87.5% directional accuracy. India's metrics are visibly worse (4.6% RMSE) because World Bank only gives annual data for it — that's a data constraint, not a modeling failure, and I can defend that gap in an interview.
+Benchmarked Q4_K_M vs Q8_0 quantization trade-offs on mobile RAM constraints
+Built a chunking pipeline to handle context window limits on 4GB RAM
+Optimized inference speed vs memory usage on a non-GPU Android device
 
-**[Edge LLM Benchmarks](https://github.com/Yash1bajpai/edge-llm-benchmarks)** — Ran TinyLlama 1.1B across 5 quantization formats (FP16 down to Q4_0) on-device via llama.cpp, on my own phone, not a cloud GPU. Measured actual tokens/sec and memory tradeoffs, not just theoretical compression ratios.
 
-**[ML Algorithms from Scratch](https://github.com/Yash1bajpai/ml-algorithms)** — Linear/logistic regression and KNN built with raw NumPy, benchmarked against sklearn until the numbers matched. The point wasn't to reinvent sklearn — it was to stop treating it as a black box.
+This isn't a tutorial project. It runs on my phone right now.
 
-**[100 NumPy Exercises](https://github.com/Yash1bajpai/100-NumpyQ-A)** — All 100 solved. Broadcasting and linear algebra ops that actually come up when you're debugging shape errors at 1am.
 
-<br>
+📊 What I've Completed
+100 NumPy Questions Challenge
+All 100 industry-standard NumPy exercises — array manipulation, broadcasting, linear algebra, statistical operations. Documented and pushed to GitHub.
+→ View Repository
 
-### Stack
+🛠️ My Stack
+Languages     → Python, C++, Bash
+AI/ML         → llama.cpp, GGUF, LLM Quantization, NLP, Edge AI
+Hardware      → ARM (Snapdragon), Android, Termux
+Tools         → Git, GitHub, Linux CLI, VS Code
+Currently     → Learning NLP fundamentals + DSA daily
 
-Python is where everything lives now. C++ from lower-level/systems work. Day to day: pandas, NumPy, scikit-learn, LightGBM, statsmodels, PyTorch, FastAPI, llama.cpp, git.
+🎯 My Goals
 
-<br>
+🏆 Crack NIMCET 2027 — MCA at NIT
+🤖 Build production-grade Edge AI systems
+🔬 Contribute to privacy-first, offline-first AI research
+📱 Prove that powerful AI doesn't need a data center
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash1bajpai&layout=compact&theme=tokyonight&hide_border=true&hide_title=true" height="150"/>
-</p>
 
-<br>
+📈 My Philosophy
+Most AI tools require you to send your data to a server, trust a company, and depend on the internet. I believe intelligence should be local, private, and yours.
+That's why every project I build runs offline. That's why I optimize for ARM hardware. That's why FRIDAY exists.
 
-<p align="center"><sub><a href="https://linkedin.com/in/yash-bajpai-b5a86332a/">LinkedIn</a> · bajpaiyash2707@gmail.com</sub></p>
+📫 Connect
+
+LinkedIn: Yash Bajpai
+GitHub: Yash1bajpai
+Location: Kanpur, Uttar Pradesh, India
+
+
+Currently open to internships in AI/ML, Python development, and Edge Computing.
