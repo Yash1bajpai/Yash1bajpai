@@ -12,8 +12,6 @@
   <a href="mailto:bajpaiyash2707@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white"/>
   </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Yash1bajpai&color=blue&style=flat&label=Profile+Views"/>
 </p>
 
 ---
@@ -110,19 +108,6 @@ All 100 industry-standard exercises solved
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![llama.cpp](https://img.shields.io/badge/llama.cpp-555555?style=flat)
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yash1bajpai&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash1bajpai&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Yash1bajpai&theme=tokyonight&hide_border=true"/>
-</p>
 
 ---
 
