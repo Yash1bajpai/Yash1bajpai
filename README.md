@@ -18,7 +18,7 @@
 
 ## About Me
 
-2nd-year undergrad building production-grade ML systems. Real datasets, clean architectures, things that actually work — not tutorial clones.
+3nd-year undergrad building production-grade ML systems. Real datasets, clean architectures, things that actually work — not tutorial clones.
 
 - 🎓 BCA @ CSJMU Kanpur &nbsp;·&nbsp; Targeting NIMCET 2027 → NIT MCA
 - 💼 Looking for **remote AI/ML internships** — available July 2026
