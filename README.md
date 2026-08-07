@@ -1,7 +1,7 @@
 <h1 align="center">Yash Bajpai</h1>
 
 <p align="center">
-  AI/ML Engineering &nbsp;·&nbsp; BCA 3nd Year @ CSJMU Kanpur &nbsp;·&nbsp; Open to Remote Internships
+  AI/ML Engineering &nbsp;·&nbsp; BCA 3rd Year @ CSJMU Kanpur &nbsp;·&nbsp; Open to Remote Internships
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ## About Me
 
-3nd-year undergrad building production-grade ML systems. Real datasets, clean architectures, things that actually work — not tutorial clones.
+3rd-year undergrad building production-grade ML systems. Real datasets, clean architectures, things that actually work — not tutorial clones.
 
 - 🎓 BCA @ CSJMU Kanpur &nbsp;·&nbsp; Targeting NIMCET 2027 → NIT MCA
 - 💼 Looking for **remote AI/ML internships** — available July 2026
