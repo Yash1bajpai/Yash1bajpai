@@ -1,7 +1,7 @@
 <h1 align="center">Yash Bajpai</h1>
 
 <p align="center">
-  AI/ML Engineering &nbsp;·&nbsp; BCA 2nd Year @ CSJMU Kanpur &nbsp;·&nbsp; Open to Remote Internships
+  AI/ML Engineering &nbsp;·&nbsp; BCA 3nd Year @ CSJMU Kanpur &nbsp;·&nbsp; Open to Remote Internships
 </p>
 
 <p align="center">
