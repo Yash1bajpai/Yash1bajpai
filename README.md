@@ -71,11 +71,12 @@ Custom 246M-parameter coding foundation model — [live on Hugging Face](https:/
 <tr>
 <td width="50%" valign="top">
 
-**[📈 Vanijya AI](https://github.com/Yash1bajpai/Inditrade_AI)** — [Live Site](https://inditrade.vercel.app/)
+**[📈 Inditrade AI](https://github.com/Yash1bajpai/Inditrade_AI)** — [Live Site](https://inditrade.vercel.app/)
 Global trade intelligence engine for India
 
 - XGBoost forecasting (log-scale R² 0.9989) + Isolation Forest anomalies
-- Node2Vec trade-network embeddings · RAG chat with Qdrant
+- Node2Vec trade-network embeddings
+- **"Vanijya AI"** — RAG chatbot over trade documents (Qdrant + chat history)
 - Next.js + FastAPI + Supabase · monthly auto-retraining via GitHub Actions
 
 `XGBoost` `FastAPI` `Next.js` `Qdrant` `RAG`
