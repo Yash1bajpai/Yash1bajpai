@@ -33,8 +33,6 @@ I build AI systems end-to-end — from training custom models to shipping autono
 - 📱 **Edge AI** — on-device LLM inference on Android via llama.cpp; I benchmark what actually fits in a phone's RAM
 - 🔧 **Production ML** — FastAPI backends, vector databases, automated cloud retraining, full-stack dashboards
 
-> 🏆 **1st Place — Techkriti'26 Hackathon, IIT Kanpur**
-
 ---
 
 ## Featured Work
@@ -49,7 +47,7 @@ Autonomous ReAct coding agent, published on PyPI
 - Multi-provider backend: Claude · Gemini · OpenAI + auto-fallback on rate limits
 - 8 sandboxed tools: file I/O, code execution, web search, git
 - Real-time token/cost tracking · runs on Android (Termux)
-- 57 tests passing · CI on GitHub Actions
+- 87 tests · CI matrix on Python 3.11 / 3.12 / 3.13
 
 `Python` `ReAct` `Typer` `Multi-provider LLM`
 
@@ -60,7 +58,8 @@ Autonomous ReAct coding agent, published on PyPI
 Custom 246M-parameter coding foundation model — [live on Hugging Face](https://huggingface.co/Yash1bajpai/CodeForge-250M)
 
 - Built from scratch: 16 layers, 1024 hidden, custom 32k FIM tokenizer
-- PyTorch SDPA (FlashAttention-2): 50% activation-memory reduction (15 GB → 5 GB on T4)
+- PyTorch SDPA (FlashAttention-2): >50% activation-memory cut (15 GB → 5.05 GB on a T4)
+- Live run at 7.24 training perplexity (step 2100 / 2898 of a 1.52B-token pass)
 - 50% FIM infill rate (StarCoder/DeepSeek standard) + MinHash deduplication
 - Grammar-constrained decoding for guaranteed-valid JSON tool calls
 
@@ -74,7 +73,7 @@ Custom 246M-parameter coding foundation model — [live on Hugging Face](https:/
 **[📈 Inditrade AI](https://github.com/Yash1bajpai/Inditrade_AI)** — [Live Site](https://inditrade.vercel.app/)
 Global trade intelligence engine for India
 
-- XGBoost forecasting (log-scale R² 0.9989) + Isolation Forest anomalies
+- XGBoost forecasting (log-scale R² 0.958, dollar RMSE $0.90B) + Isolation Forest anomalies
 - Node2Vec trade-network embeddings
 - **"Vanijya AI"** — RAG chatbot over trade documents (Qdrant + chat history)
 - Next.js + FastAPI + Supabase · monthly auto-retraining via GitHub Actions
@@ -98,7 +97,7 @@ GDP nowcasting engine — US · India · Japan · Germany
 <tr>
 <td colspan="2" valign="top">
 
-**Also:** [📱 Edge LLM Benchmarks](https://github.com/Yash1bajpai/edge-llm-benchmarks) — quantization limits of real Android hardware (Q4_K_M vs Q8_0, the RAM wall) · [🛡️ Vision](https://github.com/Yash1bajpai/vision_app) — offline-first Android assistant with fail-closed validation & prompt-injection defense · [🧮 ML Algorithms](https://github.com/Yash1bajpai/ml-algorithms) — from-scratch implementations matched against sklearn
+**Also:** [📱 Edge LLM Benchmarks](https://github.com/Yash1bajpai/edge-llm-benchmarks) — quantization limits of real Android hardware (Q4_K_M vs Q8_0, the RAM wall) · [🧮 ML Algorithms](https://github.com/Yash1bajpai/ml-algorithms) — from-scratch implementations matched against sklearn · [🛍️ Olist E-commerce EDA](https://github.com/Yash1bajpai/olist-ecommerce-eda) · [🔌 MCP Doc CLI](https://github.com/Yash1bajpai/mcp-doc-cli)
 
 </td>
 </tr>
