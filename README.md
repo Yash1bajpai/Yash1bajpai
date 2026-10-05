@@ -47,7 +47,7 @@ Autonomous ReAct coding agent, published on PyPI
 - Multi-provider backend: Claude · Gemini · OpenAI + auto-fallback on rate limits
 - 8 sandboxed tools: file I/O, code execution, web search, git
 - Real-time token/cost tracking · runs on Android (Termux)
-- 87 tests · CI matrix on Python 3.11 / 3.12 / 3.13
+- 111 tests · CI matrix on Python 3.11 / 3.12 / 3.13
 
 `Python` `ReAct` `Typer` `Multi-provider LLM`
 
@@ -55,7 +55,7 @@ Autonomous ReAct coding agent, published on PyPI
 <td width="50%" valign="top">
 
 **[🧠 CodeForge-250M](https://github.com/Yash1bajpai/CodeForge-250M)**
-Custom 246M-parameter coding foundation model — [live on Hugging Face](https://huggingface.co/Yash1bajpai/CodeForge-250M)
+Custom 246M-parameter coding foundation model **(in progress)** — [interim checkpoint on Hugging Face](https://huggingface.co/Yash1bajpai/CodeForge-250M)
 
 - Built from scratch: 16 layers, 1024 hidden, custom 32k FIM tokenizer
 - PyTorch SDPA (FlashAttention-2): >50% activation-memory cut (15 GB → 5.05 GB on a T4)
@@ -95,9 +95,36 @@ GDP nowcasting engine — US · India · Japan · Germany
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+**[🛡️ Vision](https://github.com/Yash1bajpai/vision_app)**
+Fail-closed execution boundary for on-device AI agents
+
+- Strict 4-key JSON action schema + bounded &le;3-action plans — no provider output reaches execution unvalidated
+- Risk-tiered confirmation · zero disk persistence (no state poisoning, no injection side-effects)
+- 91/91 JVM tests + 5/5 on-device instrumentation tests · signed APK verified on physical hardware
+- LLM runtime deliberately deferred — the boundary exists so a model cannot bypass it
+
+`Java` `Android` `Fail-closed` `Prompt-injection Defense`
+
+</td>
+<td width="50%" valign="top">
+
+**[📱 Edge LLM Benchmarks](https://github.com/Yash1bajpai/edge-llm-benchmarks)**
+Quantization limits of real Android hardware
+
+- 4 sub-4B models, Q4_K_M vs Q8_0, on a 6 GB Snapdragon 695 phone vs PC
+- Found the ~3.0–3.5 GB usable-RAM wall: Q4_K_M runs to 3.8B, Q8_0 OOMs above 2B
+- Qwen2.5-3B Q4_K_M: 17.5 tok/s prompt, 5.35 tok/s generation at 1.90 GiB
+
+`llama.cpp` `GGUF` `ARM NEON` `Quantization`
+
+</td>
+</tr>
+<tr>
 <td colspan="2" valign="top">
 
-**Also:** [📱 Edge LLM Benchmarks](https://github.com/Yash1bajpai/edge-llm-benchmarks) — quantization limits of real Android hardware (Q4_K_M vs Q8_0, the RAM wall) · [🧮 ML Algorithms](https://github.com/Yash1bajpai/ml-algorithms) — from-scratch implementations matched against sklearn · [🛍️ Olist E-commerce EDA](https://github.com/Yash1bajpai/olist-ecommerce-eda) · [🔌 MCP Doc CLI](https://github.com/Yash1bajpai/mcp-doc-cli)
+**Also:** [🧮 ML Algorithms](https://github.com/Yash1bajpai/ml-algorithms) — from-scratch implementations matched against sklearn · [🛍️ Olist E-commerce EDA](https://github.com/Yash1bajpai/olist-ecommerce-eda) · [🔌 MCP Doc CLI](https://github.com/Yash1bajpai/mcp-doc-cli)
 
 </td>
 </tr>
