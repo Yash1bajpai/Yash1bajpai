@@ -124,7 +124,7 @@ Quantization limits of real Android hardware
 <tr>
 <td colspan="2" valign="top">
 
-**Also:** [🧮 ML Algorithms](https://github.com/Yash1bajpai/ml-algorithms) — from-scratch implementations matched against sklearn · [🛍️ Olist E-commerce EDA](https://github.com/Yash1bajpai/olist-ecommerce-eda) · [🔌 MCP Doc CLI](https://github.com/Yash1bajpai/mcp-doc-cli)
+**Also:** [🧮 ML Algorithms](https://github.com/Yash1bajpai/ml-algorithms) — from-scratch implementations matched against sklearn · [🔌 MCP Doc CLI](https://github.com/Yash1bajpai/mcp-doc-cli)
 
 </td>
 </tr>
